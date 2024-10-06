@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.glb'],
+  optimizeDeps: {
+    force: true,
+    include: ['@react-three/drei']
+  },
 })

@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { dermaspace, nyosi, arcic, imoogle } from "../assets/images";
 import {
     car,
     contact,
@@ -22,8 +22,11 @@ import {
     snapgram,
     summiz,
     tailwindcss,
+    wordpress,
     threads,
-    typescript
+    typescript,
+    bootstrap
+   
 } from "../assets/icons";
 
 export const skills = [
@@ -32,11 +35,11 @@ export const skills = [
         name: "CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
+    // {
+    //     imageUrl: express,
+    //     name: "Express",
+    //     type: "Backend",
+    // },
     {
         imageUrl: git,
         name: "Git",
@@ -57,109 +60,119 @@ export const skills = [
         name: "JavaScript",
         type: "Frontend",
     },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
+    // {
+    //     imageUrl: mongodb,
+    //     name: "MongoDB",
+    //     type: "Database",
+    // },
+    // {
+    //     imageUrl: motion,
+    //     name: "Motion",
+    //     type: "Animation",
+    // },
+    // {
+    //     imageUrl: mui,
+    //     name: "Material-UI",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: nextjs,
+    //     name: "Next.js",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: nodejs,
+    //     name: "Node.js",
+    //     type: "Backend",
+    // },
     {
         imageUrl: react,
         name: "React",
         type: "Frontend",
     },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+    // {
+    //     imageUrl: redux,
+    //     name: "Redux",
+    //     type: "State Management",
+    // },
+    // {
+    //     imageUrl: sass,
+    //     name: "Sass",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
+        imageUrl: wordpress,
+        name: "Wordpress",
+        type: "CMS",
+    },
+    {
+        imageUrl: bootstrap,
+        name: "Bootstrap",
         type: "Frontend",
     }
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // }
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Wordpress and PHP Developer",
+        company_name: "DermaspaceNG",
+        icon: dermaspace,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "March 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed and maintained a custom WordPress theme for a dermaspace website using PHP and JavaScript.",
+            "Implemented a secure online booking system integrated with the scheduling software.",
+            "Optimized website performance, achieving a 40% improvement in page load times.",
+            "Build An AI Chatbot with pretrained data based on the comapany data.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "E-commerce Developer",
+        company_name: "Nyosi Brand",
+        icon: nyosi,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "May 2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Created a user-friendly and responsive e-commerce website using WordPress and WooCommerce for Nyosi brand.",
+            "Customized product pages and implemented a easy-to-use checkout process, leading to a 30% increase in conversion rates.",
+            "build a login sytem for cutomers to manage their order and track along the way.",
+            "Conducted regular security audits and implemented measures to protect customer data and prevent unauthorized access.",
         ],
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        company_name: "Africa Rising Community",
+        icon: arcic,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "January 2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Built a non-profit website with a community platform to support ARC initiatives.",
+            "Developed a registration system to streamline user enrollment for ARC.",
+            "Created an AI-powered live chatbot to answer student questions and provide real-time assistance.",
+            "Ensured seamless functionality across both desktop and mobile devices.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Full Stack Developer",
+        company_name: "ImoogleAI",
+        icon: imoogle,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "June 2022 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Led the development of a mentorship matching algorithm using machine learning techniques.",
+            "Designed and implemented a RESTful API to support mobile app development for the platform.",
+            "Optimized database queries, resulting in a 50% reduction in page load times for high-traffic pages.",
+            "Conducted code reviews and mentored junior developers, improving overall team productivity by 20%.",
         ],
     },
 ];
@@ -173,12 +186,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/',
     }
 ];
 
@@ -186,43 +199,29 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Nyosi Brand',
+        description: 'Redesigned and redeveloped the Nyosi Brand e-commerce website, showcasing their products and services.',
+        link: 'https://nyosibrand.com',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'DermaspaceNG',
+        description: 'Developed Dermaspace Esthetic and Wellness Center website, including spa services and skincare solutions.',
+        link: 'https://dermaspaceng.com',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Africa Rising Community',
+        description: 'Developed the Africa Rising Community website and platform, fostering connection and growth.',
+        link: 'https://theafricarisingcommunity.org',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        name: 'ImoogleAI',
+        description: 'Developed ImoogleAI, an AI model using Microsoft Azure for advanced AI capabilities.',
+        link: 'https://chat.imoogelai.xyz',
+    },
 ];
